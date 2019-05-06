@@ -1,0 +1,30 @@
+import random
+
+opposites_dict = {
+    'cock': 'hen',
+    'big': 'small',
+    'white': 'black',
+    'Give': 'Take',
+    'buy': 'sell',
+    'local': 'foreign',
+    }
+words = []
+for x in opposites_dict.keys():
+    words.append(x)
+
+while True:
+    word = random.choice(words)
+    opposite = opposites_dict[word]
+    opposite_guess = input("What is the opposite of " + word + "?")
+    if opposite_guess.lower() == opposite:
+        print ("Correct! Good job.")
+    else:
+        print ("Incorrect! The opposite of " + word + " is " + opposite)
+
+
+    keep_playing = input("Do you want to continue? y/n")
+    if keep_playing == 'n':
+        print("\nAll done! \nThanks for playing.")
+        break
+
+

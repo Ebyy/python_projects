@@ -1,0 +1,13 @@
+{% extends "blog_B/base.html" %}
+
+{% block content %}
+
+<p>New entry</p>
+
+<form action="{% url 'blog_B:new_entry' post.id%}" method="post">
+    {%csrf_token%}
+    {{form.as_p}}
+    <button name="submit">Save entry</button>
+</form>
+
+{% endblock content %}

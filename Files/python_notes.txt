@@ -1,0 +1,6 @@
+In python, I have learnt about strings and variables.
+In python, I have started working with lists and dictionaries.
+I have also learned how to use loops in python.
+Particularly, if statements, for and while loops.
+I have also learned about functions, classes and using modules in python.
+Sourcing for input from others is also possible with python.
