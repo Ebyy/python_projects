@@ -7,5 +7,5 @@ PASSWORDS = {'email': 'E7beRe0ohgK',
 
 import sys
 if len(sys.argv) < 2:
-    print("Usage: python pw.py [account] - copy account password")
+    print("Usage: python pwLoginSelector.py [account] - copy account password")
     sys.exit()
